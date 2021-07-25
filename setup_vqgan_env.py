@@ -36,10 +36,6 @@ import tensorflow_hub as hub
 import matplotlib.pyplot as plt
 os.environ["TFHUB_DOWNLOAD_PROGRESS"] = "True"
 
-!wget "https://user-images.githubusercontent.com/12981474/40157448-eff91f06-5953-11e8-9a37-f6b5693fa03f.png" -O original.png
-
-SAVED_MODEL_PATH = "https://tfhub.dev/captain-pool/esrgan-tf2/1"
-
 #Helper function for the super resolution
 
 def preprocess_image(image_path):
